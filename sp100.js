@@ -101,4 +101,4 @@ var sp100List = {
   XOM:	'Exxon Mobil Corp'
 }
 
-console.log(sp100List);
+module.exports = sp100List;
