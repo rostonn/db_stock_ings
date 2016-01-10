@@ -17,7 +17,7 @@ var sp100List = {
   BK:	'Bank of New York',
   BLK:	'BlackRock Inc',
   BMY:	'Bristol-Myers Squibb',
-  'BRK.B':	'Berkshire Hathaway',
+  BRKB:	'Berkshire Hathaway',
   C:	'Citigroup Inc',
   CAT:	'Caterpillar Inc',
   CL:	'Colgate-Palmolive Co.',
