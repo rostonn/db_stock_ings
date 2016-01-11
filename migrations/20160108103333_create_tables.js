@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
     table.string('symbol');
     table.string('name');
     table.float('current_price');
+    table.integer('volume');
   })
   .then(function(){
     return knex.schema.createTable('users', function(table){
