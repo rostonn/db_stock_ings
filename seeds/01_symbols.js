@@ -2,7 +2,7 @@ var sp100List = require('../sp100')
 var promiseArray = [];
 
 exports.seed = function(knex, Promise) {
-  if(false){
+  if(true){
     return knex('symbols').del().then(function(){
       var idCount = 1;
       for (symbol in sp100List){
