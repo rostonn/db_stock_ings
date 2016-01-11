@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.string('symbol');
     table.string('name');
+    table.float('current_price');
   })
   .then(function(){
     return knex.schema.createTable('users', function(table){
