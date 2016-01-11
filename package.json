@@ -1,0 +1,24 @@
+{
+  "name": "db_stock_kings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knexfile.js",
+  "dependencies": {
+    "knex": "^0.9.0",
+    "pg": "^4.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostonn/db_stock_kings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostonn/db_stock_kings/issues"
+  },
+  "homepage": "https://github.com/rostonn/db_stock_kings#readme"
+}
