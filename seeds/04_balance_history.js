@@ -1,5 +1,5 @@
 exports.seed = function(knex, Promise){
-  if(true){
+  if(false){
     return knex('balance_history').del().then(function(){
       return Promise.all([
         knex('balance_history').insert({
